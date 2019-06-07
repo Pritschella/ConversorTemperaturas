@@ -9,7 +9,7 @@ import android.widget.EditText;
 import android.widget.RadioButton;
 
 import com.e.conversortemperaturas.R;
- 
+
 public class MainActivity extends AppCompatActivity implements AdapterView.OnClickListener {
     EditText cajaNumAConvertir,cajaC,cajaF,cajaR,cajaK;
     RadioButton radioF,radioC,radioR,radioK;
