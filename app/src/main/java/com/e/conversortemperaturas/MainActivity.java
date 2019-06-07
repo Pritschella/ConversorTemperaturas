@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnCli
         radioK=findViewById(R.id.radioButtonK);
 
         chkF=findViewById(R.id.checkBox_F);
-        chkF.setOnClickListener(this);
+        chkF.setOnClickListener(this); 
         chkC=findViewById(R.id.checkBox_C);
         chkC.setOnClickListener(this);
         chkK=findViewById(R.id.checkBox_K);
