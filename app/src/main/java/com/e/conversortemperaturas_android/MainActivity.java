@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnCli
         cajaNumAConvertir=findViewById(R.id.editText_convertir);
         cajaC=findViewById(R.id.editText_C);
         cajaF=findViewById(R.id.editText_F);
-        cajaR=findViewById(R.id.editText_R);
+        cajaR=findViewById(R.id.editText_R); 
         cajaK=findViewById(R.id.editText_K);
 
         radioC=findViewById(R.id.radioButtonC);
