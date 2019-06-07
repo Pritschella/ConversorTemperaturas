@@ -1,4 +1,4 @@
-package com.e.conversortemperaturas;
+package com.e.conversortemperaturas_android;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -7,6 +7,8 @@ import android.widget.AdapterView;
 import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.RadioButton;
+
+import com.e.conversortemperaturas.R;
 
 public class MainActivity extends AppCompatActivity implements AdapterView.OnClickListener {
     EditText cajaNumAConvertir,cajaC,cajaF,cajaR,cajaK;
