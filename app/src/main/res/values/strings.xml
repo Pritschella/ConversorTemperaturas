@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">ConversorTemperaturas</string>
+
+    <string name="txt_convertir">Convertir</string>
+    <string name="edit_text_convertir"> </string>
+
+    <string name="radio_btn_c">C</string>
+    <string name="radio_btn_F">F</string>
+    <string name="radio_btn_R">R</string>
+    <string name="radio_btn_K">K</string>
+
+    <string name="txt_a_grados">A grados:</string>
+
+    <string name="check_box_c">C</string>
+    <string name="check_box_f">F</string>
+    <string name="check_box_k">K</string>
+    <string name="check_box_r">R</string>
+
+    <string name="edit_text_cajaC">  </string>
+    <string name="edit_text_cajaF">  </string>
+    <string name="edit_text_cajaK">  </string>
+    <string name="edit_text_cajaR">  </string>
+
+
+</resources>

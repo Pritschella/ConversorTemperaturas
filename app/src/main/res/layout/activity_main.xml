@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txt_convertir"
+        android:layout_width="64dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="202dp"
+        android:text="@string/txt_convertir"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editText_convertir"
+        android:layout_width="216dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="53dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/edit_text_convertir"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_convertir" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="215dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="54dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText_convertir">
+
+        <RadioButton
+            android:id="@+id/radioButtonC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/radio_btn_c" />
+
+        <RadioButton
+            android:id="@+id/radioButtonF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/radio_btn_F" />
+
+        <RadioButton
+            android:id="@+id/radioButtonR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/radio_btn_R" />
+
+        <RadioButton
+            android:id="@+id/radioButtonK"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/radio_btn_K" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/txt_aGrados"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="211dp"
+        android:text="@string/txt_a_grados"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
+
+    <CheckBox
+        android:id="@+id/checkBox_C"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="11dp"
+        android:text="@string/check_box_c"
+        app:layout_constraintEnd_toStartOf="@+id/editText_C"
+        app:layout_constraintTop_toBottomOf="@+id/txt_aGrados" />
+
+    <EditText
+        android:id="@+id/editText_C"
+        android:layout_width="201dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="16dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/edit_text_cajaC"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_aGrados" />
+
+    <CheckBox
+        android:id="@+id/checkBox_F"
+        android:layout_width="40dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="12dp"
+        android:text="@string/check_box_f"
+        app:layout_constraintEnd_toStartOf="@+id/editText_F"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox_C" />
+
+    <EditText
+        android:id="@+id/editText_F"
+        android:layout_width="197dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/edit_text_cajaF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText_C" />
+
+    <CheckBox
+        android:id="@+id/checkBox_K"
+        android:layout_width="wrap_content"
+        android:layout_height="33dp"
+        android:layout_marginTop="27dp"
+        android:layout_marginEnd="12dp"
+        android:text="@string/check_box_k"
+        app:layout_constraintEnd_toStartOf="@+id/editText_K"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox_F" />
+
+    <EditText
+        android:id="@+id/editText_K"
+        android:layout_width="200dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="17dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/edit_text_cajaK"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText_F" />
+
+    <CheckBox
+        android:id="@+id/checkBox_R"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="12dp"
+        android:text="@string/check_box_r"
+        app:layout_constraintEnd_toStartOf="@+id/editText_R"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox_K" />
+
+    <EditText
+        android:id="@+id/editText_R"
+        android:layout_width="197dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="20dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/edit_text_cajaR"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText_K" />
+</android.support.constraint.ConstraintLayout>
