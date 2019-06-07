@@ -162,9 +162,9 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnCli
             if (click == R.id.checkBox_K) {
                 cajaK.setText(grados+ "");
                 chkK.setChecked(true);
-            }
+            } 
         }
 
-    } 
+    }
 
 }//clasee

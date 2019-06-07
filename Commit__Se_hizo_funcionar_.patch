@@ -1,0 +1,19 @@
+Index: app/src/main/java/com/e/conversortemperaturas/MainActivity.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/com/e/conversortemperaturas/MainActivity.java	(revision 3a8319aac2d08baf28c93d1b43e17eaf16a86e3d)
++++ app/src/main/java/com/e/conversortemperaturas/MainActivity.java	(date 1559892176532)
+@@ -162,9 +162,9 @@
+             if (click == R.id.checkBox_K) {
+                 cajaK.setText(grados+ "");
+                 chkK.setChecked(true);
+-            }
++            } 
+         }
+ 
+-    } 
++    }
+ 
+ }//clasee
